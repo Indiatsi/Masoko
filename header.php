@@ -96,10 +96,6 @@
                         </li>
 
                         <li>
-                            <a href="blog.php">Blog</a>
-                        </li>
-
-                        <li>
                             <a href="about.php">About</a>
                         </li>
 
@@ -340,11 +336,6 @@
 
                 <li class="item-menu-mobile">
                     <a href="index.php">Home</a>
-                    <ul class="sub-menu">
-                        <li><a href="index.php">Homepage V1</a></li>
-                        <li><a href="home-02.php">Homepage V2</a></li>
-                        <li><a href="home-03.php">Homepage V3</a></li>
-                    </ul>
                     <i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
                 </li>
 
@@ -358,10 +349,6 @@
 
                 <li class="item-menu-mobile">
                     <a href="cart.php">Features</a>
-                </li>
-
-                <li class="item-menu-mobile">
-                    <a href="blog.php">Blog</a>
                 </li>
 
                 <li class="item-menu-mobile">
