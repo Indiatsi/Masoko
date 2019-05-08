@@ -1,5 +1,7 @@
 <?php
+session_start();
 include 'header.php';
+include 'functions.php';
 ?>
 
 	<!-- Title Page -->
@@ -21,36 +23,33 @@ include 'header.php';
 							Categories
 						</h4>
 
-						<ul class="p-b-54">
-							<li class="p-t-4">
-								<a href="#" class="s-text13 active1">
-									All
-								</a>
-							</li>
-
-							<li class="p-t-4">
-								<a href="#" class="s-text13">
-									Food and Drinks
-								</a>
-							</li>
-
-							<li class="p-t-4">
-								<a href="#" class="s-text13">
-									Alcoholic Drinks
-								</a>
-							</li>
-
-							<li class="p-t-4">
-								<a href="#" class="s-text13">
-									Electronic Appliances
-								</a>
-							</li>
-
-							<li class="p-t-4">
-								<a href="#" class="s-text13">
-									Baby and kids
-								</a>
-							</li>
+						<ul class="p-b-54" id="cats">
+                            <?php
+                            getCats();
+                            ?>
+<!--							<li class="p-t-4">-->
+<!--								<a href="product.php" class="s-text13 active1">-->
+<!--									-->
+<!--								</a>-->
+<!--							</li>-->
+<!---->
+<!--							<li class="p-t-4">-->
+<!--								<a href="food.php" class="s-text13">-->
+<!--									Food and Drinks-->
+<!--								</a>-->
+<!--							</li>-->
+<!---->
+<!--							<li class="p-t-4">-->
+<!--								<a href="electronics.php" class="s-text13">-->
+<!--									Electronics-->
+<!--								</a>-->
+<!--							</li>-->
+<!---->
+<!--							<li class="p-t-4">-->
+<!--								<a href="baby.php" class="s-text13">-->
+<!--									Baby and kids-->
+<!--								</a>-->
+<!--							</li>-->
 						</ul>
 
 						<!--  -->
@@ -181,8 +180,8 @@ include 'header.php';
 
 										<div class="block2-btn-addcart w-size1 trans-0-4">
 											<!-- Button -->
-											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-												Add to Cart
+											<button><a href="addtocart.php" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                Add to Cart</a>
 											</button>
 										</div>
 									</div>
