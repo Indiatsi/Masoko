@@ -1,0 +1,12 @@
+.star {
+  font-size: 40px;
+}
+.star:hover {
+  cursor: pointer;
+}
+.hovered{
+  color : gold;
+}
+.checked {
+  color: gold;
+}
