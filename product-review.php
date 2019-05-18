@@ -9,17 +9,51 @@
     <link rel = 'stylesheet' type = 'text/css' href='./css/product-review.css'>
     <title>Rating/ Masoko</title>
     <script src = './js/review.js'></script>
+    <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a href="index.php" class="navbar-brand">
-            <img style= 'height : 50%; width : 50%;'class = 'img-fluid' src="https://www.masoko.com/media/logo/stores/1/masoko_fest_logo.png" alt="IMG-LOGO">
+        <a href="index.php" class="navbar-brand">
+            <img style= 'height : 50%; width : 50%;'class = 'img-fluid' src="https://www.masoko.com/media/logo/stores/1/masoko_fest_logo.png" alt="IMG-LOGO" loading = 'lazy'>
         </a>
-        <span class="navbar-text">
-        </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class = 'collapse navbar-collapse' id = 'navbarDropdown'>
+            <div id= 'center-nav' class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.php">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.php">Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.php">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class = 'd-sm-none  d-lg-block'>
+            <a href="#">
+                <img src="images/icons/icon-header-01.png" class="d-inline-block align-top" alt="ICON" loading = 'lazy' >
+            </a>
+        </div>
+        
     </nav>
     <div class="container">
-        <h1>Span</h1>
+        <h1>Product Review</h1>
         <p class = 'text-center lead'>Please rate the quality of ${product_name} to assist other shoppers during future purchases.</p>
         <form action="">
             <div class="container">

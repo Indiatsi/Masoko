@@ -10,3 +10,25 @@
 .checked {
   color: gold;
 }
+
+@media only screen and  (min-width: 300px){
+    .d-sm-none {
+      display: none!important;
+  }
+}
+@media only screen and (min-width : 992px){
+    .d-lg-block{
+      display : block!important;
+    }
+}
+@media only screen and (min-width : 992px){
+    #center-nav{
+        padding : 0 25%;
+    }
+}
+@media only screen and (min-width : 2560px){
+  #center-nav{
+    padding : 0 15%;
+  }
+}
+  
