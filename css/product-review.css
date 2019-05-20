@@ -28,12 +28,6 @@
   .rating-column{
     padding : 4% 0;
   }
-  #center-nav {
-    padding: 0 25%;
-  }
+
 }
-@media only screen and (min-width: 2560px) {
-  #center-nav {
-    padding: 0 15%;
-  }
-}
+
