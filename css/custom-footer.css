@@ -1,0 +1,9 @@
+.custom-footer{
+    padding : 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343f49;
+    color : white;
+}
